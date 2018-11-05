@@ -2,7 +2,13 @@
   opacity: 0;
 }
 .show {
-  animation: transition 0.6s 
+  animation: transition 0.6s
+}
+.slide {
+  height: 800px;
+}
+img {
+  height:50%;
 }
 @-@keyframes transition {
   0% {
