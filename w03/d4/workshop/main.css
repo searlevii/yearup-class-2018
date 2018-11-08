@@ -1,2 +1,35 @@
-} button
-  
+#meow {
+  position: relative;
+  width: 50%;
+  height: auto;
+  opacity: 0.6;
+}
+#meow:hover {
+  animation: fadein 3s;
+  animation-fill-mode: backwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0.6;
+    width: 55%;
+    height: auto;
+  }
+  100% {
+    opacity: 1;
+    width: 70%;
+    height: auto;
+  }
+}
+body {
+  background-color: #000;
+  cursor:crosshair;
+}
+button {
+  border: solid 1px orange;
+  background-color: #000;
+  color: orange;
+}
+button:hover {
+  color: orangex;
+  background-color: #8B3E13;
+}
