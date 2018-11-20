@@ -1,0 +1,12 @@
+body {
+  background-color: #303030;
+  text-align: center;
+}
+header {
+  background-color: #EB5757;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid;
+}
