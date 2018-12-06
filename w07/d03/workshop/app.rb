@@ -36,14 +36,14 @@ end
 end
 
 # Check the rosters
-# @A.roster
-# puts ""
-# @B.roster
-# puts ""
-# @C.roster
-# puts ""
-# @D.roster
-# puts ""
+@A.roster
+puts ""
+@B.roster
+puts ""
+@C.roster
+puts ""
+@D.roster
+puts ""
 
 
 ############################################################
